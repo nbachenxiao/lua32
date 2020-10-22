@@ -140,7 +140,7 @@ static time_t l_checktime (lua_State *L, int arg) {
 
 static int os_execute (lua_State *L) {
 #ifdef TARGET_OS_IPHONE
-  lua_pushboolean(L, false);
+  lua_pushboolean(L, 0);
   return 1;
 #else
   const char *cmd = luaL_optstring(L, 1, NULL);

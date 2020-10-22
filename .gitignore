@@ -1,0 +1,4 @@
+lua53.xcodeproj/xcshareddata
+lua53.xcodeproj/xcuserdata
+*.o
+liblua.a
