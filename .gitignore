@@ -5,3 +5,4 @@ liblua.a
 build/.vs/
 build/proj.win32/.vs/
 build/proj.win32/x64/
+build/luac32/x64/
