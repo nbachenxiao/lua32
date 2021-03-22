@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua32", "lua32.vcxproj", "{333719D2-7A9A-4C26-B942-522FF375537C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luac32", "..\luac32\luac32.vcxproj", "{08E28141-AE5F-4C87-BBC4-718CBE221582}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{333719D2-7A9A-4C26-B942-522FF375537C}.Release|x64.Build.0 = Release|x64
 		{333719D2-7A9A-4C26-B942-522FF375537C}.Release|x86.ActiveCfg = Release|Win32
 		{333719D2-7A9A-4C26-B942-522FF375537C}.Release|x86.Build.0 = Release|Win32
+		{08E28141-AE5F-4C87-BBC4-718CBE221582}.Debug|x64.ActiveCfg = Debug|x64
+		{08E28141-AE5F-4C87-BBC4-718CBE221582}.Debug|x64.Build.0 = Debug|x64
+		{08E28141-AE5F-4C87-BBC4-718CBE221582}.Debug|x86.ActiveCfg = Debug|Win32
+		{08E28141-AE5F-4C87-BBC4-718CBE221582}.Debug|x86.Build.0 = Debug|Win32
+		{08E28141-AE5F-4C87-BBC4-718CBE221582}.Release|x64.ActiveCfg = Release|x64
+		{08E28141-AE5F-4C87-BBC4-718CBE221582}.Release|x64.Build.0 = Release|x64
+		{08E28141-AE5F-4C87-BBC4-718CBE221582}.Release|x86.ActiveCfg = Release|Win32
+		{08E28141-AE5F-4C87-BBC4-718CBE221582}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

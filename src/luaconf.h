@@ -33,7 +33,7 @@
 ** ensure that all software connected to Lua will be compiled with the
 ** same configuration.
 */
-#define LUA_32BITS
+/* #define LUA_32BITS */
 
 /*
 @@ LUA_USE_C89 controls the use of non-ISO-C89 features.
@@ -774,9 +774,14 @@
 ** without modifying the main part of the file.
 */
 
+// #define ORIGINAL_BYTECODE 0
 
+#ifdef ORIGINAL_BYTECODE
+    #define SIZE_TYPE size_t
 
-
+#else    
+    #define SIZE_TYPE int
+#endif
 
 #endif
 
