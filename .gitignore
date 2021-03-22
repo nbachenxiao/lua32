@@ -2,3 +2,6 @@ lua53.xcodeproj/xcshareddata
 lua53.xcodeproj/xcuserdata
 *.o
 liblua.a
+build/.vs/
+build/proj.win32/.vs/
+build/proj.win32/x64/
