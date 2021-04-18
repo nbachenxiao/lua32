@@ -779,8 +779,9 @@
 #ifdef ORIGINAL_BYTECODE
     #define SIZE_TYPE size_t
 
-#else    
-    #define SIZE_TYPE int
+#else
+typedef unsigned int SIZE_TYPE; // size_t = {unsigned / unsigned long}
+// #define SIZE_TYPE unsigned int // size_t
 #endif
 
 #endif
