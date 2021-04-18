@@ -9,6 +9,12 @@ Ref to
 - http://www.jianshu.com/p/67d9baabd318
 - http://www.jianshu.com/p/3c49cf454502
 
+```c
+typedef unsigned int SIZE_TYPE; // size_t = {unsigned / unsigned long}
+```
+
 # How to debug
+
 1. open `lua53.xcodeproj` to debug macOS/iOS
 2. open `lua32\build\proj.win32` to debug win32 app.
+3. cd premake && premake vs2019 / xcode4
